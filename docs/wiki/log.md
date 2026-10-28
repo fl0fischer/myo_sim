@@ -4,6 +4,10 @@ Append-only. Add entries at the top (most recent first). Do not edit past entrie
 
 ---
 
+## 2026-10-28 — Settled grip reported next to the 0.15 s grip; muscle-model note on the passive fit
+Changed: `scripts/validate_hand_function.py`, `myo_sim/build/data/hand_function.json`, `myo_sim/build/data/muscle_passive.json`, `docs/wiki/hand-function-validation.md`, `docs/wiki/passive-muscles-tenodesis.md`
+Why: the 0.15 s grip of the paper is not settled; the script now also reports the grip at the same levels after 2 s (force, digit shares, change since 1 s), while the optimisation, tolerances and test stay on 0.15 s (the script and table are identical in MyoHub/myo_sim#139). The passive fit's values are for MuJoCo's rigid-tendon muscle; with compliant tendons the slack lengths and a tendon or passive parameter are refitted at fibre-tendon equilibrium, and fpmax does not carry over.
+
 ## 2026-10-28 — Release step for EDC3-5 and EDM; grip validation after McFarland et al. 2023
 Changed: `scripts/fit_muscle_passive.py`, `myo_sim/build/data/muscle_passive.json`, `myo_sim/models/arm/assets/myoarm_r_muscle.xml`, `tests/test_muscle_passive.py`, `scripts/validate_hand_function.py`, `myo_sim/build/data/hand_function.json`, `myo_sim/build/hand_function.py`, `tests/test_hand_grip.py`, `docs/wiki/passive-muscles-tenodesis.md`, `docs/wiki/hand-function-validation.md`, `docs/wiki/index.md`, `docs/wiki/testing-guide.md`, `myo_sim/models/arm/README.md`
 Why: EDC3-5 and EDM sat at the fpmax floor, so the digits barely opened when the wrist flexed; only their fpmax is refit, above the smallest value that opens digits 3-5 in the McFarland et al. 2023 release trial, with the slack lengths unchanged. The grip protocol and test of that validation come with it (the script, table and loader are identical in MyoHub/myo_sim#139).
