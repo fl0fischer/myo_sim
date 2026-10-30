@@ -6,12 +6,12 @@
     "binder_markey2017": {
       "citation": "Binder-Markey BI, Murray WM. Incorporating the length-dependent passive-force generating muscle properties of the extrinsic finger muscles into a wrist and finger biomechanical musculoskeletal model. J Biomech 61:250-257, 2017.",
       "doi": "10.1016/j.jbiomech.2017.06.026",
-      "access": "closed; method (Eqs. 1-8) and Table 2 verified from the PDF"
+      "access": "method (Eqs. 1-8) and Table 2 verified from the PDF"
     },
     "knutson2000": {
       "citation": "Knutson JS, Kilgore KL, Mansour JM, Crago PE. Intrinsic and extrinsic contributions to the passive moment at the metacarpophalangeal joint. J Biomech 33(12):1675-1681, 2000.",
       "doi": "10.1016/S0021-9290(00)00159-7",
-      "access": "closed; equations (1)-(4) and Table 1 verified from the PDF"
+      "access": "equations (1)-(4) and Table 1 verified from the PDF"
     },
     "formica2012": {
       "citation": "Formica D, Charles SK, Zollo L, Guglielmelli E, Hogan N, Krebs HI. The passive stiffness of the wrist and forearm. J Neurophysiol 108(4):1158-1166, 2012.",
@@ -21,7 +21,7 @@
     "kamper2002": {
       "citation": "Kamper DG, Hornby TG, Rymer WZ. Extrinsic flexor muscles generate concurrent flexion of all three finger joints. J Biomech 35(12):1581-1589, 2002.",
       "doi": "10.1016/S0021-9290(02)00229-4",
-      "access": "closed; Table 2 (tau_s, K, B) and Eq. (1) verified from the PDF"
+      "access": "Table 2 (tau_s, K, B) and Eq. (1) verified from the PDF"
     },
     "barry2018": {
       "citation": "Barry AJ, Murray WM, Kamper DG. Development of a dynamic index finger and thumb model to study impairment. J Biomech 77:206-210, 2018.",
